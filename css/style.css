@@ -35,6 +35,11 @@ nav{
   z-index: 2;
   background-color: white;
 }
+#hidden .container-fluid{
+  display: flex;
+  justify-content: space-around;
+}
+
 #hidden i{
   line-height: 30px;
 
@@ -100,15 +105,19 @@ nav a{
 #socials{
   background-color: #F3F5F9;
 }
+#socials ul{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 
 #socials li{
-  display: inline-block;
-  list-style-type: none;
+  list-style: none;
   width: calc((100% / 6) - 4px)
 }
+
 #socials img{
   max-width: 80%;
-  margin-top: auto;
 }
 /* /social section *
 /
